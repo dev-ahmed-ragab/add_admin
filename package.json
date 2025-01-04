@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-permissions-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "autoprefixer": "^10.4.2",
+    "i18next": "^24.2.0",
+    "i18next-browser-languagedetector": "^8.0.2",
+    "i18next-http-backend": "^3.0.1",
+    "next": "latest",
+    "postcss": "^8.4.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-i18next": "^15.4.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "latest",
+    "typescript": "^4.5.4"
+  }
+}
